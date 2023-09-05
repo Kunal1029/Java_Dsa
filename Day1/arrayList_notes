@@ -1,0 +1,30 @@
+Introduction of ArrayList class
+
+
+This is linear ds and built in.
+Array is fixed size but array_list is dynamic size
+1 - dynamic size means it can go bigger or smaller according to our needs , array is fixed bcoz we give particular size then that array can not be change its size.
+
+2 - Primitive datatypes (int , char , float , boolean , etc) can't be stored directrly. but we can store by making objects of data types classes (Integer , floater etc..)
+
+3 - We need to use "import java.util.ArrayList;" for accessing ArrayList class.
+
+//sample code
+import java.util.ArrayList;
+
+public class ks{
+    psvm{
+        ArrayList<Integer> listone = new ArrayList<>();
+        // here explation of line 14 are below
+        //ArrayList - class name
+        // ks - object name
+        // new - keyboard which use to created space of arraylist object in heap memory.
+        // ArrayList<>() - ArrayList<> (class name) , () - we call constructor of arraylist
+
+        // <> - anugular brackets shows which type of data we want to store like below.
+
+        ArrayList<String> list2 = new ArrayList<>();
+        ArrayList<Boolean> list3 = new ArrayList<>();
+    }
+}
+//Arraylist is part of collection frame work
