@@ -1,6 +1,6 @@
 package Cylindertest;
 
-class cylinderTest { // can make class by any name
+class cylinderTest1 { // can make class by any name
     public double radius;
     public double height;
     
@@ -24,7 +24,7 @@ class cylinderTest { // can make class by any name
 
 public class Cylinder  { // file name
     public static void main(String[] args) {
-        cylinderTest c = new cylinderTest();
+        cylinderTest1 c = new cylinderTest1();
         c.radius = 7;
         c.height = 10;
 
