@@ -1,7 +1,7 @@
 package Day0;
 // Question - https://www.hackerrank.com/challenges/java-loops/problem?isFullScreen=true
 
-import java.io.*;
+// import java.io.*;
 import java.util.*;
 
 

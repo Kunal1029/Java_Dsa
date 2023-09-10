@@ -19,6 +19,7 @@ class Circle{
         Scanner sc = new Scanner(System.in);
         c1.radius = sc.nextDouble();
         c2.radius = sc.nextDouble();
+        sc.close();
         System.out.println("Area "+c1.area());
         System.out.println("circumference "+c1.circumference());
         System.out.println("perimeter " + c1.perimeter());
